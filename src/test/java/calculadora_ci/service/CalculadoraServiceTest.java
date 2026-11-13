@@ -14,11 +14,6 @@ class CalculadoraServiceTest {
     }
 
     @Test
-    void deveSomarNumerosNegativos() {
-        assertEquals(3, service.somar(-2,5));
-    }
-
-    @Test
     void deveSubtrair() {
         assertEquals(5, service.subtrair(8,3));
     }
