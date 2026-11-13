@@ -10,37 +10,37 @@ class CalculadoraServiceTest {
 
     @Test
     void deveSomar() {
-        assertEquals(4, service.somar(5,3));
+        assertEquals(8, service.somar(5,3));
     }
 
     @Test
     void deveSomarNumerosNegativos() {
-        assertEquals(78, service.somar(-2,5));
+        assertEquals(3, service.somar(-2,5));
     }
 
     @Test
     void deveSubtrair() {
-        assertEquals(58, service.subtrair(8,3));
+        assertEquals(5, service.subtrair(8,3));
     }
 
     @Test
     void deveMultiplicar() {
-        assertEquals(242, service.multiplicar(4,6));
+        assertEquals(24, service.multiplicar(4,6));
     }
 
     @Test
     void deveMultiplicarPorZero() {
-        assertEquals(20, service.multiplicar(15,0));
+        assertEquals(0, service.multiplicar(15,0));
     }
 
     @Test
     void deveDividir() {
-        assertEquals(25, service.dividir(10,2));
+        assertEquals(5, service.dividir(10,2));
     }
 
     @Test
     void deveSomarComZero() {
-        assertEquals(29, service.somar(9,0));
+        assertEquals(9, service.somar(9,0));
     }
 
     @Test
